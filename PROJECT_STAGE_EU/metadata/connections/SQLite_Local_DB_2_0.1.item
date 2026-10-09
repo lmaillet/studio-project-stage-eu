@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_N9sT8MO0EfGzjJD_Ema2VA" name="SQLite_Local_DB_2" id="_N9DawMO0EfGzjJD_Ema2VA" label="SQLite_Local_DB_2" dataPackage="_ZpVL8MPFEfGzjJD_Ema2VA" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite:/C:/ProgramData/chocolatey/lib/SQLite/tools/my_database.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/ProgramData/chocolatey/lib/SQLite/tools/my_database.db" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_N9sT8MO0EfGzjJD_Ema2VA" name="SQLite_Local_DB_2" id="_N9DawMO0EfGzjJD_Ema2VA" label="SQLite_Local_DB_2" dataPackage="_eIIAkMPHEfGzjJD_Ema2VA" DatabaseType="SQLite" DriverClass="org.sqlite.JDBC" URL="jdbc:sqlite:/c:/programdata/chocolatey/lib/sqlite/tools/my_database.db" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="C:/ProgramData/chocolatey/lib/SQLite/tools/my_database.db" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="sqlite_id" ProductId="SQLITE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_GnJEgcOxEfGzjJD_Ema2VA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_Go4J4MOxEfGzjJD_Ema2VA" tag="package filter" value=""/>
     <taggedValue xmi:id="_Go8bUMOxEfGzjJD_Ema2VA" tag="Status" value=""/>
@@ -9,17 +9,10 @@
     <taggedValue xmi:id="_Go8bU8OxEfGzjJD_Ema2VA" tag="Description" value=""/>
     <taggedValue xmi:id="_Go8bVMOxEfGzjJD_Ema2VA" tag="Author" value=""/>
     <taggedValue xmi:id="_Go8bVcOxEfGzjJD_Ema2VA" tag="otherParameter"/>
-    <taggedValue xmi:id="_ZqbYIMPFEfGzjJD_Ema2VA" tag="DB ProductName" value=""/>
-    <taggedValue xmi:id="_ZqbYIcPFEfGzjJD_Ema2VA" tag="DB ProductVersion" value=""/>
+    <taggedValue xmi:id="_ZqbYIMPFEfGzjJD_Ema2VA" tag="DB ProductName" value="SQLite"/>
+    <taggedValue xmi:id="_ZqbYIcPFEfGzjJD_Ema2VA" tag="DB ProductVersion" value="3.44.1"/>
+    <taggedValue xmi:id="_eIFkUMPHEfGzjJD_Ema2VA" tag="DB IdentifierQuoteString" value="&quot;"/>
     <parameters xmi:id="_OzTdkMPFEfGzjJD_Ema2VA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema xmi:id="_ZpVL8MPFEfGzjJD_Ema2VA" name=" " dataManager="_N9sT8MO0EfGzjJD_Ema2VA">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_cy4W0MPFEfGzjJD_Ema2VA" name="test" id="_cy2hoMPFEfGzjJD_Ema2VA" label="test" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_cy4W0cPFEfGzjJD_Ema2VA" name="id" label="id" length="2000000000" sourceType="INTEGER" talendType="id_String">
-        <taggedValue xmi:id="_cy4W0sPFEfGzjJD_Ema2VA" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_cy4W08PFEfGzjJD_Ema2VA" language="COLUMN_DEF"/>
-        <sqlDataType xmi:id="_cy4W1MPFEfGzjJD_Ema2VA" name="INTEGER" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
-      </feature>
-    </ownedElement>
-  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_eIIAkMPHEfGzjJD_Ema2VA" name=" " dataManager="_N9sT8MO0EfGzjJD_Ema2VA"/>
 </xmi:XMI>
